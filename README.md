@@ -10,4 +10,4 @@ https://github.com/Myongji-Graduate/MyongjiGraduate-FE
 
 졸부 site
 <br>
-https://mju-graduate.com/
+<a href="https://mju-graduate.com/" target="_blank"> https://mju-graduate.com/ </a>
