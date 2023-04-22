@@ -20,21 +20,21 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping(value = "/roadmap.go", method = RequestMethod.GET)
-	public String roadmapGo(HttpServletRequest req) {
-		req.setAttribute("contents", "roadmap/roadmap.jsp");
+	@RequestMapping(value = "/guide.go", method = RequestMethod.GET)
+	public String guideGo(HttpServletRequest req) {
+		req.setAttribute("contents", "guide/guide.jsp");
 		return "index";
 	}
 	
-	@RequestMapping(value = "/tutorial.go", method = RequestMethod.GET)
-	public String tutorialGo(HttpServletRequest req) {
-		req.setAttribute("contents", "tutorial/tutorial.jsp");
+	@RequestMapping(value = "/check.go", method = RequestMethod.GET)
+	public String checkGo(HttpServletRequest req) {
+		req.setAttribute("contents", "check/check.jsp");
 		return "index";
 	}
 	
-	@RequestMapping(value = "/feedback.go", method = RequestMethod.GET)
-	public String feedbackGo(HttpServletRequest req) {
-		req.setAttribute("contents", "feedback/feedback.jsp");
+	@RequestMapping(value = "/share.go", method = RequestMethod.GET)
+	public String shareGo(HttpServletRequest req) {
+		req.setAttribute("contents", "share/share.jsp");
 		return "index";
 	}
 }
