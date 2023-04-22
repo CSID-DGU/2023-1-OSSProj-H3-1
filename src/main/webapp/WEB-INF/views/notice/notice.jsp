@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	OSSP H3 입니당
+	notice.jsp
 </body>
 </html>
