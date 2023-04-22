@@ -10,37 +10,46 @@
 <link rel="stylesheet" href="resources/css/index.css" />
 </head>
 <body>
-	<div class="index_shadow"></div>
+	<div class="index_shadow">
+	</div>
 	<div class="index_container">
 		<header>
-			<div>
-				<a href="/home">졸업어때</a>
+			<div class="index_homeLogo">
+				<div>
+					<a href="/home">졸업어때</a>
+				</div>
 			</div>
-			<div>
+			<div class="index_navigationbar">
 				<div>
 					<a href="notice.go">공지사항</a>
 				</div>
 				<div>
-					<a href="roadmap.go">로드맵</a>
+					<a href="guide.go">커리큘럼가이드</a>
 				</div>
 				<div>
-					<a href="tutorial.go">튜토리얼</a>
+					<a href="check.go">졸업요건확인</a>
 				</div>
 				<div>
-					<a href="feedback.go">피드백</a>
+					<a href="share.go">정보공유</a>
 				</div>
 			</div>
 		</header>
 		<main>
 			<jsp:include page="${contents}"></jsp:include>
 		</main>
+		<!-- 
+		<div>
+			피드백 챗봇
+		</div>
+		 -->
 		<footer>
 			<div class="index_footer">
 				<div>
-					동국대학교홈페이지?유드림스?
+					<a href="https://www.dongguk.edu/page/137" target="_blank">동국대학교 학업이수가이드</a>
+					<a href="https://mdrims.dongguk.edu/" target="_blank">동국대학교 MDRIMS</a>
 				</div>
 				<div>
-					팀소개(깃허브?노션?)
+					<a href="https://github.com/CSID-DGU/2023-1-OSSProj-H3-1" target="_blank">About Us</a>
 				</div>
 			</div>
 		</footer>

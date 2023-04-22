@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	roadmap.jsp
+	<p style="text-align: center;">guide.jsp</p>
 </body>
 </html>

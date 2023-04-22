@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	home.jsp
+	<p style="text-align: center;">home.jsp</p>
 </body>
 </html>
