@@ -3,7 +3,6 @@
 졸업가능 깃허브
 <br>
 https://github.com/Graduate-Ok/Graduation-Okay-
-
 졸업가능 site
 <br>
 http://www.hs-graduate-ok.com/
