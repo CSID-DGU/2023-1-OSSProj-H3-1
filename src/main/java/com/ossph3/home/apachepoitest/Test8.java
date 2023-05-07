@@ -1,3 +1,5 @@
+package com.ossph3.home.apachepoitest;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -14,7 +16,11 @@ import org.apache.pdfbox.text.PDFTextStripper;
 public class Test8 {
     public static void main(String[] args) {
         try {
-            File pdfFile = new File("src/sample.pdf");
+        	File pdfFile = new File("src/main/webapp/resources/test/sample_hg.pdf");
+        	/*
+        	File pdfFile = new File("src/main/webapp/resources/test/sample_yh.pdf");
+        	File pdfFile = new File("src/main/webapp/resources/test/sample_eh.pdf");
+        	*/
             PDDocument document = Loader.loadPDF(pdfFile);
 
             PDFTextStripper pdfStripper = new PDFTextStripper();
@@ -32,8 +38,8 @@ public class Test8 {
     }
 
     private static List<String> extractData(String text) {
-        List<String> extractedData = new ArrayList<>();
-        Map<String, Integer> creditSumMap = new HashMap<>();
+        List<String> extractedData = new ArrayList<String>();
+        Map<String, Integer> creditSumMap = new HashMap<String,Integer>();
 
         // 정규 표현식을 사용하여 행을 분리
         String[] lines = text.split("\n");
