@@ -4,10 +4,9 @@
 /**/
 @import "home.css";
 /**/
-@import "notice.css";
 @import "guide.css";
 @import "check.css";
-@import "share.css";
+@import "board.css";
 
 * {
   box-sizing: border-box;
@@ -26,7 +25,7 @@ body {
 }
 .index_container {
   display: grid;
-  grid-template-rows: 100px 1fr 180px;
+  grid-template-rows: 200px 1fr 180px;
   grid-template-areas:	"header"
   						"main"
   						"footer";
@@ -44,6 +43,10 @@ body {
 .index_container header .index_homeLogo {
 	display: flex;
   justify-content: center;
+}
+.index_container header .index_homeLogo div img {
+	width: 150px;
+	height: 150px;
 }
 .index_container header .index_navigationbar {
 	display: flex;

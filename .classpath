@@ -13,15 +13,15 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
 		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
@@ -32,24 +32,25 @@
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="target/generated-sources/annotations">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="ignore_optional_problems" value="true"/>
-			<attribute name="m2e-apt" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="ignore_optional_problems" value="true"/>
-			<attribute name="m2e-apt" value="true"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/jackson-annotations-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/jackson-core-2.13.2 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/jackson-core-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/jackson-databind-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/json-20230227 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/json-20230227.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/log4j-api-2.17.1 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/log4j-api-2.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/log4j-core-2.17.1 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/log4j-core-2.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/pdfbox-app-3.0.0-alpha3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/slf4j-api-2.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/slf4j-simple-2.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/xmlbeans-5.0.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

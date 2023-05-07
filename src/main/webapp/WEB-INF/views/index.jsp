@@ -16,13 +16,10 @@
 		<header>
 			<div class="index_homeLogo">
 				<div>
-					<a href="/home">졸업어때</a>
+					<a href="/home"><img src="resources/image/졸업어때_donggukStrongOrange.png"></a>
 				</div>
 			</div>
 			<div class="index_navigationbar">
-				<div>
-					<a href="notice.go">공지사항</a>
-				</div>
 				<div>
 					<a href="guide.go">커리큘럼가이드</a>
 				</div>
@@ -30,7 +27,7 @@
 					<a href="check.go">졸업요건확인</a>
 				</div>
 				<div>
-					<a href="share.go">정보공유</a>
+					<a href="board.go">정보공유</a>
 				</div>
 			</div>
 		</header>
