@@ -52,5 +52,18 @@
 	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/slf4j-api-2.0.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/slf4j-simple-2.0.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/arnud/바탕 화면/라이브러리/xmlbeans-5.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/jackson-annotations-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/jackson-core-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/jackson-databind-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/json-20230227.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/log4j-api-2.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/log4j-core-2.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/pdfbox-app-3.0.0-alpha3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/slf4j-api-2.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/slf4j-simple-2.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/frans/OneDrive/바탕 화면/라이브러리/xmlbeans-5.0.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
