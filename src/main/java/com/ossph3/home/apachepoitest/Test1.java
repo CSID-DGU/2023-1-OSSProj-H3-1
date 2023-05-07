@@ -1,3 +1,5 @@
+package com.ossph3.home.apachepoitest;
+/*
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileWriter;
@@ -132,3 +134,4 @@ public class FileUploadServlet extends HttpServlet {
             return jsonObject;
         }
     }
+*/

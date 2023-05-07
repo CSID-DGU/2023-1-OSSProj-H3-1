@@ -14,12 +14,6 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping(value = "/notice.go", method = RequestMethod.GET)
-	public String noticeGo(HttpServletRequest req) {
-		req.setAttribute("contents", "notice/notice.jsp");
-		return "index";
-	}
-	
 	@RequestMapping(value = "/guide.go", method = RequestMethod.GET)
 	public String guideGo(HttpServletRequest req) {
 		req.setAttribute("contents", "guide/guide.jsp");
@@ -32,9 +26,9 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping(value = "/share.go", method = RequestMethod.GET)
+	@RequestMapping(value = "/board.go", method = RequestMethod.GET)
 	public String shareGo(HttpServletRequest req) {
-		req.setAttribute("contents", "share/share.jsp");
+		req.setAttribute("contents", "board/board.jsp");
 		return "index";
 	}
 }

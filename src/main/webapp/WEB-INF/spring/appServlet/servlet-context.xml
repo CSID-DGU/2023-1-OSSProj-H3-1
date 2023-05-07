@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans:beans xmlns="http://www.springframework.org/schema/mvc"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
-	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
-	xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:jee="http://www.springframework.org/schema/jee"
+<beans:beans
+	xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:jee="http://www.springframework.org/schema/jee"
 	xmlns:aop="http://www.springframework.org/schema/aop"
 	xsi:schemaLocation="http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.1.xsd
 		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd
@@ -17,28 +21,36 @@
 	<tx:annotation-driven />
 	<resources mapping="/resources/**" location="/resources/" />
 
+	<!-- "멀티파트리졸버" -->
+	<beans:bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<beans:property name="maxUploadSize" value="10485760" />
+		<beans:property name="defaultEncoding" value="UTF-8" />
+	</beans:bean>
+
 	<beans:bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 
-	<context:component-scan base-package="com.ossph3.home" />
+	<context:component-scan
+		base-package="com.ossph3.home" />
 
 	<!-- 클라우드 -->
-	<!--
-	<beans:bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
-		<beans:property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
-		<beans:property name="url" value="jdbc:oracle:thin:@DB202302011640_high?TNS_ADMIN=C:/jhg/library등등/Wallet_DB202302011640" />
-		<beans:property name="username" value="ADMIN" />
-		<beans:property name="password" value="JungHanGil0407!" />
-	</beans:bean>
-	 -->
+	<!-- <beans:bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"> 
+		<beans:property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" 
+		/> <beans:property name="url" value="jdbc:oracle:thin:@DB202302011640_high?TNS_ADMIN=C:/jhg/library등등/Wallet_DB202302011640" 
+		/> <beans:property name="username" value="ADMIN" /> <beans:property name="password" 
+		value="JungHanGil0407!" /> </beans:bean> -->
 
 	<!-- 로컬 -->
-	<beans:bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
-		<beans:property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
-		<beans:property name="url" value="jdbc:oracle:thin:@localhost:1521:xe" />
+	<beans:bean id="dataSource"
+		class="org.apache.commons.dbcp2.BasicDataSource">
+		<beans:property name="driverClassName"
+			value="oracle.jdbc.driver.OracleDriver" />
+		<beans:property name="url"
+			value="jdbc:oracle:thin:@localhost:1521:xe" />
 		<beans:property name="username" value="c##jhg0727" />
 		<beans:property name="password" value="jhg0727" />
 	</beans:bean>
@@ -48,9 +60,11 @@
 		<beans:property name="dataSource" ref="dataSource" />
 	</beans:bean>
 
-	<beans:bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+	<beans:bean id="sqlSessionFactory"
+		class="org.mybatis.spring.SqlSessionFactoryBean">
 		<beans:property name="dataSource" ref="dataSource" />
-		<beans:property name="typeAliasesPackage" value="com.ossph3.home" />
+		<beans:property name="typeAliasesPackage"
+			value="com.ossph3.home" />
 		<beans:property name="mapperLocations">
 			<beans:list>
 				<beans:value>classpath:ossph3mapper.xml</beans:value>
@@ -58,7 +72,8 @@
 		</beans:property>
 	</beans:bean>
 
-	<beans:bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+	<beans:bean id="sqlSession"
+		class="org.mybatis.spring.SqlSessionTemplate">
 		<beans:constructor-arg name="sqlSessionFactory"
 			ref="sqlSessionFactory" />
 	</beans:bean>

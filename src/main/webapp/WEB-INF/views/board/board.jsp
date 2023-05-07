@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<p style="text-align: center;">notice.jsp</p>
+	<p style="text-align: center;">board.jsp</p>
 </body>
 </html>
