@@ -15,6 +15,13 @@
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
 	<dependencies>
+		<!-- ApachePDFBOx -->
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.24</version>
+		</dependency>
+
 		<!-- 서블릿 3.0이상 사용 가능한 파일 업로드 api -->
 		<dependency>
 			<groupId>commons-fileupload</groupId>

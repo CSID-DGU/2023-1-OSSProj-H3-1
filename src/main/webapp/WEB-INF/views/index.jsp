@@ -24,7 +24,7 @@
 					<a href="guide.go">커리큘럼가이드</a>
 				</div>
 				<div>
-					<a href="check.go">졸업요건확인</a>
+					<a href="check.go">모의졸업사정</a>
 				</div>
 				<div>
 					<a href="board.go">정보공유</a>
