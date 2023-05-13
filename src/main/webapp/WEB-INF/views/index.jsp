@@ -10,24 +10,24 @@
 <link rel="stylesheet" href="resources/css/index.css" />
 </head>
 <body>
-	<div class="index_shadow">
+	<div id="index_shadow">
 	</div>
-	<div class="index_container">
+	<div id="index_container">
 		<header>
-			<div class="index_homeLogo">
+			<div id="index_homeLogo">
 				<div>
 					<a href="/home"><img src="resources/image/졸업어때_donggukStrongOrange.png"></a>
 				</div>
 			</div>
-			<div class="index_navigationbar">
+			<div id="index_navigationbar">
 				<div>
-					<a href="guide.go">커리큘럼가이드</a>
+					<a href="guide.go" target="_self">커리큘럼가이드</a>
 				</div>
 				<div>
-					<a href="check.go">모의졸업사정</a>
+					<a href="check.go" target="_self">모의졸업사정</a>
 				</div>
 				<div>
-					<a href="board.go">정보공유</a>
+					<a href="board.go" target="_self">정보공유게시판</a>
 				</div>
 			</div>
 		</header>
@@ -40,7 +40,7 @@
 		</div>
 		 -->
 		<footer>
-			<div class="index_footer">
+			<div id="index_footer">
 				<div>
 					<a href="https://www.dongguk.edu/page/137" target="_blank">동국대학교 학업이수가이드</a>
 					<a href="https://mdrims.dongguk.edu/" target="_blank">동국대학교 MDRIMS</a>

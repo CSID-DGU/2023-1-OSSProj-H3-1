@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<p style="text-align: center;">check.jsp</p>
+	<p style="text-align: center;">모의졸업사정</p>
 </body>
 </html>
