@@ -1,1 +1,74 @@
-@charset "UTF-8";
+@import "reset.css";
+@import "variable.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap");
+/**/
+@import "home.css";
+/**/
+@import "guide.css";
+@import "check.css";
+@import "board.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+}
+.index_shadow {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: -10000;
+}
+.index_container {
+  display: grid;
+  grid-template-rows: 200px 1fr 180px;
+  grid-template-areas:	"header"
+  						"main"
+  						"footer";
+  min-width: 1200px;
+  min-height: 100vh;
+}
+.index_container header{
+	grid-area: header;
+  background-color: white;
+	display: grid;
+  position: sticky;
+  top: -30px;
+  z-index: 10000;
+}
+.index_container header .index_homeLogo {
+	display: flex;
+  justify-content: center;
+}
+.index_container header .index_homeLogo div img {
+	width: 150px;
+	height: 150px;
+}
+.index_container header .index_navigationbar {
+	display: flex;
+  justify-content: center;
+}
+
+
+
+main {
+	grid-area: main;
+  background-color: white;
+}
+
+
+
+footer {
+	grid-area: footer;
+  display: flex;
+  justify-content: center;
+  background-color: var(--donggukLightOrange);
+  color: #fff;
+}
+footer a {
+  color: white;
+}
