@@ -40,15 +40,9 @@
 		</div>
 		 -->
 		<footer>
-			<div id="index_footer">
-				<div>
-					<a href="https://www.dongguk.edu/page/137" target="_blank">동국대학교 학업이수가이드</a>
-					<a href="https://mdrims.dongguk.edu/" target="_blank">동국대학교 MDRIMS</a>
-				</div>
-				<div>
-					<a href="https://github.com/CSID-DGU/2023-1-OSSProj-H3-1" target="_blank">About Us</a>
-				</div>
-			</div>
+			<a href="https://www.dongguk.edu/page/137" target="_blank">동국대학교 학업이수가이드</a>
+			<a href="https://mdrims.dongguk.edu/" target="_blank">동국대학교 MDRIMS</a>
+			<a href="https://github.com/CSID-DGU/2023-1-OSSProj-H3-1" target="_blank">About Us</a>
 		</footer>
 	</div>
 	<!-- JavaScript -->
