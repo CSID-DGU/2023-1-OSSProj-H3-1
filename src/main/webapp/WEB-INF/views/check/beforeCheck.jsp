@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<p style="text-align: center;">check.jsp</p>
+	<form action="check.do" method="post" enctype="multipart/form-data">
+		<input name="file" type="file">
+		<input type="submit" value="모의졸업사정">	
+	</form>
 </body>
 </html>
