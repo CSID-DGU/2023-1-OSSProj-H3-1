@@ -9,66 +9,95 @@
 @import "board.css";
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
-  background-color: white;
-  font-family: "Noto Sans KR", sans-serif;
-  font-weight: 300;
+	display:flex;
+	justify-content: center;
+	background-color: white;
+	font-family: "Noto Sans KR", sans-serif;
+	font-weight: 300;
 }
-.index_shadow {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  z-index: -10000;
-}
-.index_container {
-  display: grid;
-  grid-template-rows: 200px 1fr 180px;
-  grid-template-areas:	"header"
-  						"main"
-  						"footer";
-  min-width: 1200px;
-  min-height: 100vh;
-}
-.index_container header{
-	grid-area: header;
-  background-color: white;
+
+/* #index_shadow {
+	position: fixed;
+	background-color: rgb(242, 147, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	z-index: -10000;
+}*/
+
+#wrap {
 	display: grid;
-  position: sticky;
-  top: -30px;
-  z-index: 10000;
-}
-.index_container header .index_homeLogo {
-	display: flex;
-  justify-content: center;
-}
-.index_container header .index_homeLogo div img {
-	width: 150px;
-	height: 150px;
-}
-.index_container header .index_navigationbar {
-	display: flex;
-  justify-content: center;
+	grid-template-rows: 250px 1fr 100px;
+	grid-template-areas:	"header"
+	  						"main"
+	  						"footer";
+	place-items: center;
+	min-height: 100vh;
+	width:80vw;
 }
 
+header{
+	grid-area: header;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: -30px;
+	z-index: 10000;
+	width:100%
+}
+/* #index_homeLogo {
+	display: flex;
+  	justify-content: center;
+} */
+header > a > img {
+	width: auto;
+	height: 200px;
+	margin: 10px;
+}
+#index_navigationbar {
+	background-color: var(--donggukLightOrange);
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height:50px;
+	width:100%;
+}
+#index_navigationbar > div{
+	width: 200px;
+	margin:80px;
+	text-align: center;
+	font-size: 25px;
+}
 
+a {
+	text-decoration: none;
+	color:#fff;
+}
+a:hover{
+	color:yellow;
+}
 
 main {
 	grid-area: main;
-  background-color: white;
+	background-color: white;
 }
-
-
 
 footer {
 	grid-area: footer;
-  display: flex;
-  justify-content: center;
-  background-color: var(--donggukLightOrange);
-  color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--donggukLightOrange);
+	color: #fff;
+	width:100%;
 }
+
 footer a {
-  color: white;
+	font-size:15px;
+	color: white;
+	margin: 20px;
 }
