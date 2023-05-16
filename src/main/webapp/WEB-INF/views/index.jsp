@@ -46,6 +46,6 @@
 		</footer>
 	</div>
 	<!-- JavaScript -->
-	<script src="resources/js/index.js"></script>
+	<script type="module" src="resources/js/channelTalk.js"></script>
 </body>
 </html>
