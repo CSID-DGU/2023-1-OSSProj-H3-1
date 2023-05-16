@@ -10,15 +10,11 @@
 <link rel="stylesheet" href="resources/css/index.css" />
 </head>
 <body>
-	<div id="index_shadow">
-	</div>
-	<div id="index_container">
+	<div id="wrap">
 		<header>
-			<div id="index_homeLogo">
-				<div>
-					<a href="/home"><img src="resources/image/졸업어때_donggukStrongOrange.png"></a>
-				</div>
-			</div>
+
+			<a href="/home"><img src="resources/image/homeLogo.jpg"></a>
+
 			<div id="index_navigationbar">
 				<div>
 					<a href="guide.go" target="_self">커리큘럼가이드</a>
@@ -42,7 +38,6 @@
 		</footer>
 	</div>
 	<!-- JavaScript -->
-	<script src="resources/js/check.js"></script>
 	<script type="module" src="resources/js/channelTalk.js"></script>
 </body>
 </html>
