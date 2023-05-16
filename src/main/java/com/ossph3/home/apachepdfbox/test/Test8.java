@@ -24,6 +24,9 @@ public class Test8 {
 
             PDFTextStripper pdfStripper = new PDFTextStripper();
             String text = pdfStripper.getText(document);
+            
+            /*
+            */
 
             List<String> extractedData = extractData(text);
             for (String data : extractedData) {
