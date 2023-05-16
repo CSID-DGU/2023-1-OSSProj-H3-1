@@ -34,11 +34,7 @@
 		<main>
 			<jsp:include page="${contents}"></jsp:include>
 		</main>
-		<!-- 
-		<div>
-			피드백 챗봇
-		</div>
-		 -->
+
 		<footer>
 			<a href="https://www.dongguk.edu/page/137" target="_blank">동국대학교 학업이수가이드</a>
 			<a href="https://mdrims.dongguk.edu/" target="_blank">동국대학교 MDRIMS</a>
@@ -46,6 +42,7 @@
 		</footer>
 	</div>
 	<!-- JavaScript -->
+	<script src="resources/js/check.js"></script>
 	<script type="module" src="resources/js/channelTalk.js"></script>
 </body>
 </html>

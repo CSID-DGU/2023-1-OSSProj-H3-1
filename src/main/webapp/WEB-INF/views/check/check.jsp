@@ -8,11 +8,11 @@
 
 </head>
 <body>
-	<p id="check_p" style="text-align: center;">모의졸업사정</p>
-
 	<div id="guide">
-		<button id=btn>취득학점확인서 업로드</button>
+		<button onclick="upLoad()" id="btn">취득학점확인서 업로드</button>
+		<input id="uploadInput" type="file" />
 		<img id="mdrims_img" src="resources/image/mdrims.jpg" alt="mdrims_img">
 	</div>
+	<script src="resources/js/check.js"></script>
 </body>
 </html>
