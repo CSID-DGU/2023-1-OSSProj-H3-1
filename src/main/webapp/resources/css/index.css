@@ -77,17 +77,14 @@ a {
 	text-decoration: none;
 	color:#fff;
 }
-
-
-
-
+a:hover{
+	color:yellow;
+}
 
 main {
 	grid-area: main;
 	background-color: white;
 }
-
-
 
 footer {
 	grid-area: footer;
