@@ -1,0 +1,66 @@
+
+#guide_container{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+    align-items: center;
+}
+
+#selectBox{
+	display:flex;
+	justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius:100px;
+
+}
+
+#box_학과,#box_학번{
+	display:flex;
+	justify-content: center;
+    align-items: center;
+	margin:100px 50px;
+}
+
+#학과,#학번{
+	display:flex;
+	justify-content: center;
+    align-items: center;
+    width:120px;
+    height:60px;
+    background-color: orange;
+    color:white;
+    border-radius:80%;
+    font-size:30px;
+    margin-right: 40px;
+}
+select {
+	width:270px;
+	height:40px;
+	font-size:20px;
+}
+
+option {
+		text-align:center;
+}
+
+#btn_confirm{
+	width:200px;
+	height:60px;
+	border-radius:100px;
+	font-size:30px;
+	margin:50px;
+}
+
+#btn_confirm:hover{
+	cursor:not-allowed;
+}
+
+#curriculum{
+	width: 1000px;
+	height: 500px;
+	background-color:gray;
+	border: 2px dotted black;
+	font-size:100px;
+	text-align:center;
+}
