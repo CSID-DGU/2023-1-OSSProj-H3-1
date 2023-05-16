@@ -22,7 +22,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/check.go", method = RequestMethod.GET)
 	public String checkGo(HttpServletRequest req) {
-		req.setAttribute("contents", "check/check.jsp");
+		req.setAttribute("contents", "check/beforeCheck.jsp");
 		return "index";
 	}
 	
