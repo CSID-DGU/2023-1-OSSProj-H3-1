@@ -13,7 +13,7 @@
 	<div id="wrap">
 		<header>
 
-			<a href="/home"><img src="resources/image/homeLogo.jpg"></a>
+			<a href="/home"><img src="resources/image/logo/homeLogo.jpg"></a>
 
 			<div id="index_navigationbar">
 				<div>
