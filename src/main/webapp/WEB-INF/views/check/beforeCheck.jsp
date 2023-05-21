@@ -9,7 +9,7 @@ pageEncoding="UTF-8"%>
   <body>
     <div id="check_container">
       <form action="check.do" method="post" enctype="multipart/form-data">
-        <input id="uploadInput" name="file" type="file" />
+        <input name="file" type="file" />
         <input type="submit" value="모의졸업사정" />
       </form>
 
