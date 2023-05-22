@@ -118,7 +118,10 @@ public class Test16 {
                 creditSumMap.put(courseType, creditSumMap.getOrDefault(courseType, 0) + credit);
             }
         }
+<<<<<<< HEAD:src/main/java/com/ossph3/home/apachepdfbox/test/Test16.java
         
+=======
+>>>>>>> 3b931ae131a80e505b869d79f0b30c82554e34d7:src/main/java/com/ossph3/home/apachepoitest/Test16.java
 
         // 영역별 학점 총 합 출력
         System.out.println("\n영역별 학점 총 합:");
