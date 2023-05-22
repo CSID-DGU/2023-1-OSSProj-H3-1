@@ -1,3 +1,5 @@
+package com.ossph3.home.apachepdfbox.test;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -26,11 +28,11 @@ public class Test16 {
             String minor = extractMinor(text);
             String totalExpectedCredit = extractTotalExpectedCredit(text);
 
-            System.out.println("±³À°°úÁ¤ Àû¿ë³âµµ: " + educationYear);
-            System.out.println("´ëÇÐ: " + college);
-            System.out.println("ÇÐ°ú: " + major);
-            System.out.println("º¹¼ö1: " + minor);
-            System.out.println("ÃÑÃëµæ¿¹Á¤ÇÐÁ¡: " + totalExpectedCredit);
+            System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½âµµ: " + educationYear);
+            System.out.println("ï¿½ï¿½ï¿½ï¿½: " + college);
+            System.out.println("ï¿½Ð°ï¿½: " + major);
+            System.out.println("ï¿½ï¿½ï¿½ï¿½1: " + minor);
+            System.out.println("ï¿½ï¿½ï¿½ï¿½æ¿¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: " + totalExpectedCredit);
 
             List<String> extractedData = extractData(text);
             for (String data : extractedData) {
@@ -43,9 +45,9 @@ public class Test16 {
         }
     }
 
-    // ÃÑÃëµæ¿¹Á¤ÇÐÁ¡À» ÃßÃâÇÏ´Â ¸Þ¼Òµå¸¦ Ãß°¡
+    // ï¿½ï¿½ï¿½ï¿½æ¿¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Þ¼Òµå¸¦ ï¿½ß°ï¿½
     private static String extractTotalExpectedCredit(String text) {
-        Pattern pattern = Pattern.compile("ÃÑÃëµæ¿¹Á¤ÇÐÁ¡:\\s+(\\d+)");
+        Pattern pattern = Pattern.compile("ï¿½ï¿½ï¿½ï¿½æ¿¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:\\s+(\\d+)");
         Matcher matcher = pattern.matcher(text);
         if (matcher.find()) {
             return matcher.group(1);
@@ -56,7 +58,7 @@ public class Test16 {
    
 
     private static String extractEducationYear(String text) {
-        Pattern pattern = Pattern.compile("±³À°°úÁ¤ Àû¿ë³âµµ:\\s+(\\d{4})");
+        Pattern pattern = Pattern.compile("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½âµµ:\\s+(\\d{4})");
         Matcher matcher = pattern.matcher(text);
         if (matcher.find()) {
             return matcher.group(1);
@@ -65,7 +67,7 @@ public class Test16 {
     }
 
     private static String extractCollege(String text) {
-        Pattern pattern = Pattern.compile("´ëÇÐ\\s*:\\s*([^\\n]+)");
+        Pattern pattern = Pattern.compile("ï¿½ï¿½ï¿½ï¿½\\s*:\\s*([^\\n]+)");
         Matcher matcher = pattern.matcher(text);
         if (matcher.find()) {
             return matcher.group(1).split(" ")[0];  // Only get the first part (college name)
@@ -74,7 +76,7 @@ public class Test16 {
     }
 
     private static String extractMajor(String text) {
-        Pattern pattern = Pattern.compile("ÇÐ°ú\\s*:\\s*([^\\n]+)");
+        Pattern pattern = Pattern.compile("ï¿½Ð°ï¿½\\s*:\\s*([^\\n]+)");
         Matcher matcher = pattern.matcher(text);
         if (matcher.find()) {
             return matcher.group(1).split(" ")[0];  // Only get the first part (major name)
@@ -83,7 +85,7 @@ public class Test16 {
     }
 
     private static String extractMinor(String text) {
-        Pattern pattern = Pattern.compile("º¹¼ö1\\s*:\\s*([^\\n]+)");
+        Pattern pattern = Pattern.compile("ï¿½ï¿½ï¿½ï¿½1\\s*:\\s*([^\\n]+)");
         Matcher matcher = pattern.matcher(text);
         if (matcher.find()) {
             return matcher.group(1).split(" ")[0];  // Only get the first part (minor name)
@@ -95,13 +97,13 @@ public class Test16 {
         List<String> extractedData = new ArrayList<>();
         Map<String, Integer> creditSumMap = new HashMap<>();
 
-        // Á¤±Ô Ç¥Çö½ÄÀ» »ç¿ëÇÏ¿© ÇàÀ» ºÐ¸®
+        // ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ð¸ï¿½
         String[] lines = text.split("\n");
 
-        // °ü½É ÀÖ´Â µ¥ÀÌÅÍ¸¦ ÃßÃâÇÏ±â À§ÇÑ Á¤±Ô Ç¥Çö½Ä ÆÐÅÏ Á¤ÀÇ
-        // °ü½É ÀÖ´Â µ¥ÀÌÅÍ¸¦ ÃßÃâÇÏ±â À§ÇÑ Á¤±Ô Ç¥Çö½Ä ÆÐÅÏ Á¤ÀÇ
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         
-        Pattern pattern = Pattern.compile("(\\d{4}[-](?:1|2|¿©¸§|°Ü¿ï|°øÅë))\\s+(\\d)\\s+((?:ÀÏ±³|Àü°ø|±â±³|°ø±³|ÇÙ½É|ÀÚ¼±|º¹¼ö[\\s]*1|ÇÐ±â))\\s+([A-Z0-9\\s<>]+)\\s+(.+?)\\s+(\\d)\\s*(.+)"
+        Pattern pattern = Pattern.compile("(\\d{4}[-](?:1|2|ï¿½ï¿½ï¿½ï¿½|ï¿½Ü¿ï¿½|ï¿½ï¿½ï¿½ï¿½))\\s+(\\d)\\s+((?:ï¿½Ï±ï¿½|ï¿½ï¿½ï¿½ï¿½|ï¿½â±³|ï¿½ï¿½ï¿½ï¿½|ï¿½Ù½ï¿½|ï¿½Ú¼ï¿½|ï¿½ï¿½ï¿½ï¿½[\\s]*1|ï¿½Ð±ï¿½))\\s+([A-Z0-9\\s<>]+)\\s+(.+?)\\s+(\\d)\\s*(.+)"
 );
 
         for (String line : lines) {
@@ -112,9 +114,9 @@ public class Test16 {
                 String courseName = matcher.group(5);
                 int credit = Integer.parseInt(matcher.group(6));
 
-                extractedData.add(String.format("¿µ¿ª: %s °ú¸ñ¸í: %s ÇÐÁ¡: %d", courseType, courseName, credit));
+                extractedData.add(String.format("ï¿½ï¿½ï¿½ï¿½: %s ï¿½ï¿½ï¿½ï¿½ï¿½: %s ï¿½ï¿½ï¿½ï¿½: %d", courseType, courseName, credit));
 
-                // ¿µ¿ªº° ÇÐÁ¡ ÇÕ»ê
+                // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Õ»ï¿½
                 creditSumMap.put(courseType, creditSumMap.getOrDefault(courseType, 0) + credit);
             }
         }
@@ -123,10 +125,10 @@ public class Test16 {
 =======
 >>>>>>> 3b931ae131a80e505b869d79f0b30c82554e34d7:src/main/java/com/ossph3/home/apachepoitest/Test16.java
 
-        // ¿µ¿ªº° ÇÐÁ¡ ÃÑ ÇÕ Ãâ·Â
-        System.out.println("\n¿µ¿ªº° ÇÐÁ¡ ÃÑ ÇÕ:");
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½
+        System.out.println("\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½:");
         for (Map.Entry<String, Integer> entry : creditSumMap.entrySet()) {
-            System.out.printf("%s - ÃÑ ÇÐÁ¡: %d%n", entry.getKey(), entry.getValue());
+            System.out.printf("%s - ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: %d%n", entry.getKey(), entry.getValue());
         }
 
         return extractedData;
