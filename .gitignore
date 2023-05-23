@@ -1,6 +1,7 @@
 /.settings
 /.vscode
 /target
+pom.properties
 .classpath
 .project
 .springBeans
