@@ -92,7 +92,7 @@ public class Test19 {
     }
 
     private static Map<String, String[]> extractTotalCreditsAndGPAs(String text) {
-        Map<String, String[]> result = new HashMap<>();
+        Map<String, String[]> result = new HashMap<String, String[]>();
         Pattern pattern = Pattern.compile("(제1전공|복수\\d): 총(\\d+)학점 \\(기초:(\\d+), 전문:(\\d+)\\) (제1전공|복수\\d)평점: ([\\d\\.]+)");
         Matcher matcher = pattern.matcher(text);
         while (matcher.find()) {
@@ -103,7 +103,7 @@ public class Test19 {
     }
     
     private static Map<String, String> extractEnglishCourseStatus(String text) {
-        Map<String, String> result = new HashMap<>();
+        Map<String, String> result = new HashMap<String, String>();
         Pattern pattern = Pattern.compile("(영어강의이수|영어패스제\\(토익 등\\)): (대상|비대상) , (PASS|FAIL)");
         Matcher matcher = pattern.matcher(text);
         while (matcher.find()) {
@@ -149,8 +149,8 @@ public class Test19 {
     }
 
     private static List<String> extractData(String text) {
-        List<String> extractedData = new ArrayList<>();
-        Map<String, Integer> creditSumMap = new HashMap<>();
+        List<String> extractedData = new ArrayList<String>();
+        Map<String, Integer> creditSumMap = new HashMap<String, Integer>();
 
         // 정규 표현식을 사용하여 행을 분리
         String[] lines = text.split("\n");
