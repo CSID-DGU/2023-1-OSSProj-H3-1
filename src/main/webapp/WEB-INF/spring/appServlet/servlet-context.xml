@@ -38,11 +38,14 @@
 		base-package="com.ossph3.home" />
 
 	<!-- 클라우드 -->
-	<!-- <beans:bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"> 
-		<beans:property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" 
-		/> <beans:property name="url" value="jdbc:oracle:thin:@DB202302011640_high?TNS_ADMIN=C:/jhg/library등등/Wallet_DB202302011640" 
-		/> <beans:property name="username" value="ADMIN" /> <beans:property name="password" 
-		value="JungHanGil0407!" /> </beans:bean> -->
+	<!--
+	<beans:bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"> 
+		<beans:property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		<beans:property name="url" value="jdbc:oracle:thin:@i8m9sky021xkibuo_high?TNS_ADMIN=C:/Wallet_I8M9SKY021XKIBUO" />
+		<beans:property name="username" value="ADMIN" />
+		<beans:property name="password" value="OpenSourceSoftwareProjectH3" />
+	</beans:bean>
+	-->
 
 	<!-- 로컬 -->
 	<beans:bean id="dataSource"
@@ -67,7 +70,7 @@
 			value="com.ossph3.home" />
 		<beans:property name="mapperLocations">
 			<beans:list>
-				<beans:value>classpath:ossph3mapper.xml</beans:value>
+				<beans:value>classpath:check_mapper.xml</beans:value>
 			</beans:list>
 		</beans:property>
 	</beans:bean>
