@@ -38,9 +38,13 @@
 			<button id="btn_confirm" onclick="curriculum()" disabled>확인</button>
 		</div>
 		<div id="curriculum">
-			<p id="curriculum_p">커리큘럼 가이드</p>
-    		<div id=curriculum_img>
-    		</div>
+			<p id="curriculum_p">커리큘럼가이드</p>
+			<p id="curriculum_p1"></p>
+    		<div id=curriculum_img1></div>
+			<p id="curriculum_p2"></p>
+			<div id=curriculum_img2></div>
+			<p id="curriculum_p3"></p>
+			<div id=curriculum_img3></div>
     	</div>
 
 	</div>

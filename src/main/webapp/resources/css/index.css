@@ -27,8 +27,8 @@ body {
 	  						"main"
 	  						"footer";
 	place-items: center;
-	min-height: 100vh;
-	width:80vw;
+	min-height: 1200px;
+	width:1500px;
 }
 
 header{
@@ -69,6 +69,7 @@ header > a > img {
 a {
 	text-decoration: none;
 	color:#fff;
+	font-weight: bolder;
 }
 a:hover{
 	color:yellow;
