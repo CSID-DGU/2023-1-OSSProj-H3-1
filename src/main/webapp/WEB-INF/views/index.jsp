@@ -23,7 +23,7 @@
 					<a href="check.go" target="_self">모의졸업사정</a>
 				</div>
 				<div>
-					<a href="board.go" target="_self">정보공유게시판</a>
+					<a href="board.go" target="_self">공지사항게시판</a>
 				</div>
 			</div>
 		</header>
