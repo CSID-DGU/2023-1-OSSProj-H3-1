@@ -1,0 +1,42 @@
+ .board_container {
+   background-color: rgba(200,200,200, 0.5);
+   width: 65vw;
+   height: 60vh;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+
+.board_container > div {
+	width: 30vw;
+	height: 50vh;
+	padding: 1vh 2vw;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.notice-container>p{
+    color:gray;
+    font-style:italic;
+}
+details{
+    margin:1vh 1vw;
+    font-size: 1.1rem;
+}
+
+.card-container{
+	margin-top:5vh;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.team-member{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+    width:9vw;
+    border: 1px dotted lightgray;
+}
