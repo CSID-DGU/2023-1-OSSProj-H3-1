@@ -4,6 +4,7 @@
 	flex-direction:column;
 	justify-content: center;
     align-items: center;
+    margin-top: 70px;
 }
 
 #selectBox{
@@ -63,10 +64,11 @@ input[type="text"] {
 }
 
 #curriculum{
-	display:flex;
+	display:none;
 	flex-direction:column;
 	justify-content: center;
     align-items: center;
+    padding: 10px 50px;
 	border: 2px dotted black;
 	font-size:25px;
 	text-align:center;
