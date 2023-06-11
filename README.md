@@ -24,8 +24,7 @@ https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchV
 <br>
 
 # 2. 깃허브 이클립스 연동
-1. 이클립스를 실행하고 오른쪽 위에 퍼스펙티브 버튼을 클릭 
-<br>
+1. 이클립스를 실행하고 오른쪽 위에 퍼스펙티브 버튼을 클릭 <br>
 ![1](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/5654c59e-0050-42c6-9e1c-034b0cfbb1ca)
 <br>
 
