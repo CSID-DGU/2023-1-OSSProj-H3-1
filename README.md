@@ -34,8 +34,7 @@ https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchV
 ![2](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/9ac2b6fe-0832-4635-b6d5-a99cba72e7ba)
 <br>
 4. Clone Git Repository 창의 첫 번째 빨간 박스에 Git 원격 저장소 주소(https://github.com/CSID-DGU/2023-1-OSSProj-H3-1.git)를 URL 칸에 복사 <br>
-그 밑의 빨간 박스에는 깃허브 아이디와 패스워드를 입력하고 [Next] 버튼을 클릭 <br>
-![3](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/3c5ee266-0d3a-4005-a97c-50ad2caef058)
+그 밑의 빨간 박스에는 깃허브 아이디와 패스워드를 입력하고 [Next] 버튼을 클릭 <br>![3](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/3c5ee266-0d3a-4005-a97c-50ad2caef058)
 <br>
 5. Branch 선택 화면 -> [Next] 버튼을 클릭 <br>
 ![4](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/bcaa2242-fdbc-4c48-9097-e51960af7b70)
