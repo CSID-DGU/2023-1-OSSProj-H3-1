@@ -23,16 +23,27 @@ __오픈소스를 활용하여, 졸업사정 관리를 효율적으로 할 수 �
 https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchValue=&menuNo=41&bbsId=18&nttId=1707
 <br>
 
-# 2. 깃허브 클론
-```
-git clone (https://github.com/CSID-DGU/2023-1-OSSProj-H3-1.git)
-```
+# 2. 깃허브 이클립스 연동
+1. 이클립스를 실행하고 오른쪽 위에 퍼스펙티브 버튼을 클릭 
 <br>
-# 3. 깃허브 이클립스 연동
-1. 이클립스를 실행하고 오른쪽 위에 퍼스펙티브 버튼을 클릭하면 창이 보입니다. <br>
-[1](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/5654c59e-0050-42c6-9e1c-034b0cfbb1ca)
+![1](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/5654c59e-0050-42c6-9e1c-034b0cfbb1ca)
+<br>
 
-2. Git을 선택하고 [OK] 버튼을 눌러 활성화
+2. Git을 선택하고 [OK] 버튼을 눌러 활성화 <br>
+3. Git 퍼스펙티브 화면에서 [Clone a Git repository] 클릭 <br>
+![2](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/999c5e5c-34ab-4b05-ba45-353abc05aa7e)
+<br>
+4. Clone Git Repository 창의 첫 번째 빨간 박스에 Git 원격 저장소 주소(https://github.com/CSID-DGU/2023-1-OSSProj-H3-1.git)를 URI 칸에 복사. <br>
+그 밑의 빨간 박스에는 깃허브 아이디와 패스워드를 입력하고 [Next] 버튼을 클릭. <br>
+![3](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/0948d8bb-ff0d-486f-8227-54743ad4a42d) 
+<br>
+5. Branch 선택 화면 -> [Next] 버튼을 클릭 <br>
+이미지 주소 
+<br> 
+6. 원격 저장소와 연결할 로컬 저장소를 설정한 뒤 [Finish] 버튼을 클릭 <br>
+이미지 주소
+<br>
+
 
 ```
 sudo apt install python3-pip
