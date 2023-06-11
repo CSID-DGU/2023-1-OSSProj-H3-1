@@ -1,5 +1,47 @@
 # 2023-1-OSSProj-H3-1
 
+<img alt="MIT" src ="https://img.shields.io/badge/license-MIT-salmon"> <img alt="" src ="https://img.shields.io/badge/pygame-2.1.2-lightsalmon"> <img alt="" src ="https://img.shields.io/badge/OS-ubuntu-coral"> <img alt="" src ="https://img.shields.io/badge/IDE-VSCode-indianred"><br>
+
+<br>
+
+ 👾 [정한길](https://github.com/arnudora) arnudora@naver.com
+ 
+ 👿 [윤영훈](https://github.com/yoon1217) fransisco12@naver.com 
+ 
+ 🤖 [이은학](https://github.com/Ag-crane) @naver.com
+<br>
+ # INTRODUCE
+
+### [프로젝트 목표]
+__오픈소스를 활용하여, 졸업사정 관리를 효율적으로 할 수 있는 서비스 제공__<br>
+
+## 실행 방법
+<br>
+# 1. 전자정부 프레임워크 설치 
+# 2. 깃허브 클론 
+
+
+
+```
+sudo apt install python3-pip
+sudo pip3 install pygame
+
+git clone (https://github.com/CSID-DGU/2023-1-OSSProj-H3-1.git)
+cd 2022-2-OSSProj-TeamTetris-8/Tetris_Game
+python3 Tetris.py
+```
+<br>
+
+## Development Environment
+- Linux/Window
+- Visual studio code
+- Version Control : Git/Github
+<br>
+
+
+<br>
+
+
 [H3_제안서.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EC%A0%9C%EC%95%88%EC%84%9C.pdf)
 <br>
 [H3_제안서_발표자료.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EC%A0%9C%EC%95%88%EC%84%9C_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
