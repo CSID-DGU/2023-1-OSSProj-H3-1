@@ -1,6 +1,6 @@
 # 2023-1-OSSProj-H3-1
 
-<img alt="MIT" src = "https://img.shields.io/badge/Apache--2.0-license-orange"> <img alt="" src =https://img.shields.io/badge/Apache%20PDFBox%20-%202.0.28-blue> <img alt="" src ="https://img.shields.io/badge/Windows-OS-yellowgreen"> <img alt="" src ="https://img.shields.io/badge/e--govframe-3.9.0-red"> 
+<img alt="MIT" src = "https://img.shields.io/badge/Apache--2.0-license-orange"> <img alt="" src =https://img.shields.io/badge/Apache%20PDFBox%20-%202.0.28-blue> <img alt="" src ="https://img.shields.io/badge/Windows-OS-yellowgreen"> <img alt="" src ="https://img.shields.io/badge/egovframe-3.9.0-red"> 
 <img alt="" src= "https://img.shields.io/badge/Tomcat%209.0-server-lightgrey"> <br>
 
 <br>
@@ -16,7 +16,7 @@
 ### [프로젝트 목표]
 __오픈소스를 활용하여, 졸업사정 관리를 효율적으로 할 수 있는 서비스 제공__<br>
 
-##용사용 방법
+## 사용 방법
 <br>
 
 # 1. 전자정부 프레임워크 설치 
@@ -49,28 +49,18 @@ https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchV
 1. 서버 설치 <br>
 https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall 링크의 '서버 설치' 문단 참고
 <br>
-2. 서버 실
+2. 서버 실행 <br> 
+3. 
 
-## Development Environment
-- Linux/Window
-- Visual studio code
-- Version Control : Git/Github
+## 개발 환경
+- Window OS
+- 전자정부 프레임워크 3.9
+- JDK 14
+- Apache Tomcat 9.0
+- 협업: Git/Github
 <br>
 
-
-<br>
-
-
-[H3_제안서.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EC%A0%9C%EC%95%88%EC%84%9C.pdf)
-<br>
-[H3_제안서_발표자료.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EC%A0%9C%EC%95%88%EC%84%9C_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
-
-[H3_협업규칙.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%ED%98%91%EC%97%85%EA%B7%9C%EC%B9%99.pdf)
-<br>
-[H3_레이아웃디자인_초안.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B4%88%EC%95%88.pdf)
-
-<br>
-<br>
+## 외부 참고자료 
 
 졸업가능 깃허브
 <br>
@@ -94,3 +84,17 @@ https://github.com/Myongji-Graduate/MyongjiGraduate-FE
 졸업을부탁해 site
 <br>
 https://mju-graduate.com/
+
+<br>
+
+## 기타 참고자료 
+<br> 
+[H3_제안서.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EC%A0%9C%EC%95%88%EC%84%9C.pdf)
+<br>
+[H3_제안서_발표자료.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EC%A0%9C%EC%95%88%EC%84%9C_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
+
+[H3_협업규칙.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%ED%98%91%EC%97%85%EA%B7%9C%EC%B9%99.pdf)
+<br>
+[H3_레이아웃디자인_초안.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B4%88%EC%95%88.pdf)
+
+<br>
