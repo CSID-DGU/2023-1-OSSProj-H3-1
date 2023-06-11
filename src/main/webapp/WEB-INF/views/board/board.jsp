@@ -18,6 +18,12 @@ pageEncoding="UTF-8"%>
           </ul>
         </details>
         <details>
+          <summary>문과대학</summary>
+          <ul>
+            <li>2022년도부터 전공 전문/기초의 구분이 폐지되었습니다</li>
+          </ul>
+        </details>
+        <details>
           <summary>융합소프트웨어</summary>
           <ul>
             <li>
@@ -26,13 +32,6 @@ pageEncoding="UTF-8"%>
               지정되었습니다
             </li>
           </ul>
-        </details>
-        <details>
-          <summary>문과대학</summary>
-          <ul>
-            <li>2022년도부터 전공 전문/기초의 구분이 폐지되었습니다</li>
-          </ul>
-        </details>
       </div>
       <div class="team-container">
         <h1>팀 소개</h1>
@@ -42,7 +41,7 @@ pageEncoding="UTF-8"%>
             ><strong>&lt;Team H3&gt;</strong></a
           >는 2023년 4월 출발한 프로젝트 팀입니다. 각기 다른 전공의 3명의
           개발자가 모여 동국대학교 예비 졸업생들이 겪고있는 불편함을 해소하고자
-          &lt;졸업가능&gt; 프로젝트를 시작하게 되었습니다.
+          &lt;졸업어때&gt; 프로젝트를 시작하게 되었습니다.
         </p>
 
         <div class="card-container">
