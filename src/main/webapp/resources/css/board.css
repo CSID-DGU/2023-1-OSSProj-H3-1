@@ -22,6 +22,9 @@
 summary{
 	margin-top:30px;
 }
+summary:hover{
+    cursor:pointer;
+}
 details{
     font-size: 1.1rem;
     > ul{
