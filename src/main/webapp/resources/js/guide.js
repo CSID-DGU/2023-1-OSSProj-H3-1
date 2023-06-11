@@ -53,5 +53,10 @@ function curriculum(){
         <img src="resources/image/guide/영통_이수가이드2.png" alt="영통_이수가이드2">`
     }
 
+    else if(input_학과 == "융합소프트웨어"){
+        document.getElementById("curriculum_img1").innerHTML = 
+        `<img src="resources/image/guide/융소.png" alt="융소">`
+    }
+
     document.getElementById("curriculum").style.display = "flex";
 }
