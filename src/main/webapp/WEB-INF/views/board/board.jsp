@@ -18,9 +18,9 @@ pageEncoding="UTF-8"%>
           </ul>
         </details>
         <details>
-          <summary>문과대학</summary>
+          <summary>바이오시스템대학</summary>
           <ul>
-            <li>2022년도부터 전공 전문/기초의 구분이 폐지되었습니다</li>
+            <li>2022년도부터 바이오시스템대학 소속 학생도 서울캠퍼스에서 열리는 공통교양 수업을 수강할 수 있습니다</li>
           </ul>
         </details>
         <details>
