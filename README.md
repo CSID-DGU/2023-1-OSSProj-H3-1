@@ -61,16 +61,21 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 <br> 
 1. 메인 화면 <br>
 ![7](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/80f2fd86-245f-4d28-b42c-6e5448961896)
+
 <br>
 2. 커리큘럼 가이드 <br>
 ![8](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/47d5b492-6ce4-456c-8679-a44cd635a865)
+
 <br>
 3. 모의졸업사정 <br>
 ![9](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/5768d01a-6c8d-4aed-a570-d9fc00291547)
+
 ![10](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/056c7211-eb3e-4425-9a3e-ef3c6119a629)
+
 <br>
 판독 결과
 ![11](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/77350a5d-596c-4a41-a343-af8ad2befb3c)
+
 <br> 
 
 ## 개발 환경
@@ -81,7 +86,12 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 - 협업: Git/Github
 <br>
 
-## 외부 참고자료 
+## 주 코드 및 폴더
+
+- H3_1\src\main\java\com\ossph3\home\apachepdfbox\test 폴더 : aPDFBox 테스트용 코드. 
+- 
+
+## 레퍼런스 
 
 졸업가능 깃허브
 <br>
@@ -112,7 +122,11 @@ https://mju-graduate.com/
 [H3_제안서.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EC%A0%9C%EC%95%88%EC%84%9C.pdf)
 <br>
 [H3_제안서_발표자료.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EC%A0%9C%EC%95%88%EC%84%9C_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
-
+<br>
+[H3_중간발표 발표자료.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/files/11715548/_H3.pdf)
+<br>
+[H3_중간보고서.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/files/11715549/_H3.pdf)
+<br>
 [H3_협업규칙.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%ED%98%91%EC%97%85%EA%B7%9C%EC%B9%99.pdf)
 <br>
 [H3_레이아웃디자인_초안.pdf](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/blob/dev/Documents/H3_%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B4%88%EC%95%88.pdf)
