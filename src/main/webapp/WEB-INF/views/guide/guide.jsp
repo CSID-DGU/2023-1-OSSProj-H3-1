@@ -18,6 +18,7 @@
 				    <option value="일본학과"/>
 				    <option value="영어통번역학과" />
 				    <option value="의생명공학과" />
+					<option value="융합소프트웨어" />
 				  </datalist>
 				</div>
 			</div>

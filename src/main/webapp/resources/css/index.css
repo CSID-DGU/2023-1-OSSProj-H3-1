@@ -19,7 +19,16 @@ body {
 	font-weight: 300;
 }
 
-
+a{
+	text-decoration: none;
+	background-color: transparent;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
 #wrap {
 	display: grid;
 	grid-template-rows: 250px 1fr 100px;
@@ -66,12 +75,11 @@ header > a > img {
 	font-size: 25px;
 }
 
-a {
-	text-decoration: none;
+#index_navigationbar a {
 	color:#fff;
 	font-weight: bolder;
 }
-a:hover{
+#index_navigationbar a:hover{
 	color:yellow;
 }
 

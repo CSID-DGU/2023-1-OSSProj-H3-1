@@ -8,15 +8,19 @@ pageEncoding="UTF-8"%>
   </head>
   <body>
     <div id="check_container">
-      <form action="check.do" method="post" enctype="multipart/form-data">
-        <input name="file" type="file" />
-        <input type="submit" value="모의졸업사정" />
-      </form>
-
-		<!--
-		<button onclick="upLoad()" id="btn">취득학점확인서 업로드</button>
-		<input id="uploadInput" type="file" />
-		-->
+      <div id="formBox">
+        <label for="uploadBtn">
+          <div class="form_btn" onclick="upLoad()">파일 업로드</div>
+        </label>
+        <p id="fileName">파일명</p>
+        <label for="startBtn">
+          <div class="form_btn disabled_div" id="startBtn_div">모의졸업사정</div>
+        </label>
+        <form action="check.do" method="post" enctype="multipart/form-data">
+          <input name="file" type="file" accept=".pdf" id="uploadBtn" />
+          <input type="submit" value="모의졸업사정" id="startBtn" disabled/>
+        </form>
+      </div>
 
       <div id="guide">
         <div>

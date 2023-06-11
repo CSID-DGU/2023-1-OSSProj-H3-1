@@ -8,7 +8,6 @@
    justify-content: space-evenly;
    align-items: center;
  }
-
 .board_container > div {
 	width: 30vw;
 	height: 50vh;
@@ -20,18 +19,24 @@
     color:gray;
     font-style:italic;
 }
-details{
-    margin:1vh 1vw;
-    font-size: 1.1rem;
+summary{
+	margin-top:30px;
 }
-
+summary:hover{
+    cursor:pointer;
+}
+details{
+    font-size: 1.1rem;
+    > ul{
+    margin-left:10px;
+    }
+}
 .card-container{
-	margin-top:5vh;
+	margin-top:30px;
     display:flex;
     justify-content:space-evenly;
     align-items:center;
 }
-
 .team-member{
 	display:flex;
 	flex-direction:column;
@@ -39,4 +44,28 @@ details{
 	align-items:center;
     width:9vw;
     border: 1px dotted lightgray;
+}
+
+.team-member-image >img{
+    width: 120px;
+    border-radius: 50%;
+}
+
+.team-member-info{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    > h3{
+    margin: 10px 0px 5px 0px;
+    }
+    > p{
+    font-weight: 700;
+    margin: 5px 0px 10px 0px;
+    }
+}
+
+.team-container > p, .notice-container > p{
+	margin-top:40px;
+    font-size:1.1rem;
 }
