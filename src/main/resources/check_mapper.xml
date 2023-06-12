@@ -1,4 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ossph3.home.check.CheckMapper">
+	<select id="getGg" resultType="java.lang.Integer">
+		select
+		from
+		where
+	</select>
+	
+	<select id="getHg" resultType="java.lang.Integer">
+		select
+		from
+		where
+	</select>
+	
+	<select id="getJg" resultType="java.lang.Integer">
+		select
+		from
+		where
+	</select>
+	
+	<select id="getJgGPA" resultType="java.lang.Integer">
+		select
+		from
+		where
+	</select>
+	
+	<select id="getBs" resultType="java.lang.Integer">
+		select
+		from
+		where
+	</select>
+	
+	<select id="getBsGPA" resultType="java.lang.Integer">
+		select
+		from
+		where
+	</select>
+	
+	<select id="getTotalCredits" resultType="java.lang.Integer">
+		select
+		from
+		where
+	</select>
 </mapper>
