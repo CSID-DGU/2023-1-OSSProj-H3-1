@@ -106,9 +106,42 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 <details>
 <summary>
 
+ ## 4. 실행 결과 
+ 
+    </summary>
+<div markdown="1">
+<br> 
+1. 메인 화면 <br>
 
-# 5. 내부 코드
+![7](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/80f2fd86-245f-4d28-b42c-6e5448961896)
 
+<br>
+2. 커리큘럼 가이드 <br>
+
+![8](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/47d5b492-6ce4-456c-8679-a44cd635a865)
+
+<br>
+3. 모의졸업사정 <br>
+
+![9](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/5768d01a-6c8d-4aed-a570-d9fc00291547)
+
+![10](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/056c7211-eb3e-4425-9a3e-ef3c6119a629)
+
+<br>
+판독 결과
+
+![11](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/77350a5d-596c-4a41-a343-af8ad2befb3c)
+
+<br> 
+
+ 
+ </div>
+</details>
+
+ 
+
+ ## 프로그램 상세 설명
+ <br>
 # 구조도 
 <br>
 여기에 구조도 삽
