@@ -45,9 +45,9 @@ https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchV
 <br>
 1. 이클립스를 실행하고 오른쪽 위에 퍼스펙티브 버튼을 클릭 <br>
 ![1](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/fdd82efb-dae0-4f8e-aea5-b4fe91c73eed)
-<br>
 
-2. Git을 선택하고 [OK] 버튼을 눌러 활성화 <br>
+
+2. Git을 선택하고 [OK] 버튼을 눌러 활성화 <br><br>
 3. Git 퍼스펙티브 화면에서 [Clone a Git repository] 클릭 <br>
 ![2](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/9ac2b6fe-0832-4635-b6d5-a99cba72e7ba)
 <br>
@@ -107,19 +107,19 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 ![7](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/80f2fd86-245f-4d28-b42c-6e5448961896)
 
 <br>
-2. 커리큘럼 가이드 <br>
+2. 커리큘럼 가이드 <br><br>
 
 ![8](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/47d5b492-6ce4-456c-8679-a44cd635a865)
 
 <br>
-3. 모의졸업사정 <br>
+3. 모의졸업사정 <br><br>
  
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/b2c3b055-213d-45cd-abbb-561b7f24b863)
 
 
 <br>
  
-판독 결과
+판독 결과<br>
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/48f862f0-8f0e-4c97-b8d4-0ecc1fe11591)
  
 <br> 
