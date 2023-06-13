@@ -45,8 +45,7 @@ https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchV
 <br>
 1. 이클립스를 실행하고 오른쪽 위에 퍼스펙티브 버튼을 클릭 <br>
 ![1](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/fdd82efb-dae0-4f8e-aea5-b4fe91c73eed)
-
- <br>
+<br>
 
 2. Git을 선택하고 [OK] 버튼을 눌러 활성화 <br>
 3. Git 퍼스펙티브 화면에서 [Clone a Git repository] 클릭 <br>
