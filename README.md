@@ -5,7 +5,7 @@
 
 <br>
 
- 👾 [정한길](https://github.com/arnudora) arnudora@naver.com
+ 👾 [정한길](https://github.com/arnudora) arnudora@gmail.com
  
  👿 [윤영훈](https://github.com/yoon1217) fransisco12@naver.com 
  
@@ -69,7 +69,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 
 # 구조도 
 <br>
-여기에 구조도 삽
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/49521c20-67ab-49c5-86a2-df8b9472b6be)
 
 ## 실행 결과 
 <br> 
@@ -104,10 +104,30 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 - 협업: Git/Github
 <br>
 
-## 주요 코드 및 폴더
+## 폴더 구조 및 주요 코드
 
-- 폴더 위치: H3_1\src\main\java\com\ossph3\home\apachepdfbox\test 설명: aPDFBox 테스트용 코드들입니다. Run on javapplication 으로 실행 가능
-- 여기에 나머지 코드랑 폴더들 언급해주시면 될거같아요
+전형적인 Java Spring Legacy의 웹프레임워크 구조
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/96261a84-3b5d-4ac9-a191-ebfca74ee6ed)
+
+<br>
+
+MultipartResolver를 이용하여 파일 업로드
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/577d9ea6-22a1-4a9c-b01b-fe1df05bc337)
+
+<br>
+
+PDFBox를 이용하여 text를 추출
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/80cacb69-5727-40e3-957c-9968cd25b180)
+
+<br>
+
+추출한 text에서 데이터를 선별
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/f81e408a-3e3c-4654-92f1-a52c873e6a39)
+
+<br>
+
+선별한 데이터의 활용
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/ab294b54-3118-493f-96fe-6f52cb410452)
 
 ## 레퍼런스 
 
