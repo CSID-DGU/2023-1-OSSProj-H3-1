@@ -70,6 +70,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 # 구조도 
 <br>
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/28dac152-462e-49c5-825d-4d88402e7513)
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/9076402c-4f57-4c2d-ac05-b97e41111e10)
 
 ## 실행 결과 
 <br> 
