@@ -84,15 +84,10 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 
 <br>
 3. 모의졸업사정 <br>
-
-![9](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/5768d01a-6c8d-4aed-a570-d9fc00291547)
-
-![10](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/056c7211-eb3e-4425-9a3e-ef3c6119a629)
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/b2c3b055-213d-45cd-abbb-561b7f24b863)
 
 <br>
 판독 결과
-
-![11](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/77350a5d-596c-4a41-a343-af8ad2befb3c)
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/48f862f0-8f0e-4c97-b8d4-0ecc1fe11591)
 
 <br> 
