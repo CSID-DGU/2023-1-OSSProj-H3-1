@@ -107,10 +107,9 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 <summary>
 
  ## 4. 실행 결과 
- 
-    </summary>
+   </summary>
 <div markdown="1">
-<br> 
+
 1. 메인 화면 <br>
 
 ![7](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/80f2fd86-245f-4d28-b42c-6e5448961896)
@@ -144,32 +143,37 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
  <br>
 # 구조도 
 <br>
-여기에 구조도 삽
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/49521c20-67ab-49c5-86a2-df8b9472b6be)
 
-## 실행 결과 
-<br> 
-1. 메인 화면 <br>
+# 폴더 구조 및 주요 코드
 
-![7](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/80f2fd86-245f-4d28-b42c-6e5448961896)
+전형적인 Java Spring Legacy의 웹프레임워크 구조
+<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/96261a84-3b5d-4ac9-a191-ebfca74ee6ed)
 
 <br>
-2. 커리큘럼 가이드 <br>
 
-![8](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/47d5b492-6ce4-456c-8679-a44cd635a865)
+MultipartResolver를 이용하여 파일 업로드
+<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/577d9ea6-22a1-4a9c-b01b-fe1df05bc337)
 
 <br>
-3. 모의졸업사정 <br>
 
-![9](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/5768d01a-6c8d-4aed-a570-d9fc00291547)
-
-![10](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/056c7211-eb3e-4425-9a3e-ef3c6119a629)
+PDFBox를 이용하여 text를 추출
+<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/80cacb69-5727-40e3-957c-9968cd25b180)
 
 <br>
-판독 결과
 
-![11](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/77350a5d-596c-4a41-a343-af8ad2befb3c)
+추출한 text에서 데이터를 선별
+<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/f81e408a-3e3c-4654-92f1-a52c873e6a39)
 
-<br> 
+<br>
+
+선별한 데이터의 활용
+<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/ab294b54-3118-493f-96fe-6f52cb410452)
 
 ## 개발 환경
 - Window OS
