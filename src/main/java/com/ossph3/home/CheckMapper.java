@@ -3,17 +3,21 @@ package com.ossph3.home;
 import com.ossph3.home.check.GradRequDTO;
 
 public interface CheckMapper {
-	int getGg(GradRequDTO grDTO);
+	GradRequDTO readGradRequ(GradRequDTO grDTO);
+	
+	/*
+	int getGC(GradRequDTO grDTO);
 
-	int getHg(GradRequDTO grDTO);
+	int getHC(GradRequDTO grDTO);
 
-	int getJg(GradRequDTO grDTO);
+	int getJC(GradRequDTO grDTO);
 
-	int getJgGPA(GradRequDTO grDTO);
+	int getJG(GradRequDTO grDTO);
 
-	int getBs(GradRequDTO grDTO);
+	int getBC(GradRequDTO grDTO);
 
-	int getBsGPA(GradRequDTO grDTO);
+	int getBG(GradRequDTO grDTO);
 
-	int getTotalCredits(GradRequDTO grDTO);
+	int getTC(GradRequDTO grDTO);
+	*/
 }

@@ -1,67 +1,92 @@
 package com.ossph3.home.check;
 
 public class GradRequDTO {
-	private int gg;
-	private int hg;
-	private int jg;
-	private int jgGPA;
-	private int bs;
-	private int bsGPA;
-	private int totalCredits;
+	private int educationyear;
+	private String major;
+	private String major_double;
+	private int gg_credit;
+	private int hg_count;
+	private int jg_credit;
+	private int jg_GPA;
+	private int bs_credit;
+	private int bs_GPA;
+	private int total_credit;
 	public GradRequDTO() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public GradRequDTO(int gg, int hg, int jg, int jgGPA, int bs, int bsGPA, int totalCredits) {
+	public GradRequDTO(int educationyear, String major, String major_double, int gg_credit, int hg_count, int jg_credit,
+			int jg_GPA, int bs_credit, int bs_GPA, int total_credit) {
 		super();
-		this.gg = gg;
-		this.hg = hg;
-		this.jg = jg;
-		this.jgGPA = jgGPA;
-		this.bs = bs;
-		this.bsGPA = bsGPA;
-		this.totalCredits = totalCredits;
+		this.educationyear = educationyear;
+		this.major = major;
+		this.major_double = major_double;
+		this.gg_credit = gg_credit;
+		this.hg_count = hg_count;
+		this.jg_credit = jg_credit;
+		this.jg_GPA = jg_GPA;
+		this.bs_credit = bs_credit;
+		this.bs_GPA = bs_GPA;
+		this.total_credit = total_credit;
 	}
-	public int getGg() {
-		return gg;
+	public int getEducationyear() {
+		return educationyear;
 	}
-	public void setGg(int gg) {
-		this.gg = gg;
+	public void setEducationyear(int educationyear) {
+		this.educationyear = educationyear;
 	}
-	public int getHg() {
-		return hg;
+	public String getMajor() {
+		return major;
 	}
-	public void setHg(int hg) {
-		this.hg = hg;
+	public void setMajor(String major) {
+		this.major = major;
 	}
-	public int getJg() {
-		return jg;
+	public String getMajor_double() {
+		return major_double;
 	}
-	public void setJg(int jg) {
-		this.jg = jg;
+	public void setMajor_double(String major_double) {
+		this.major_double = major_double;
 	}
-	public int getJgGPA() {
-		return jgGPA;
+	public int getGg_credit() {
+		return gg_credit;
 	}
-	public void setJgGPA(int jgGPA) {
-		this.jgGPA = jgGPA;
+	public void setGg_credit(int gg_credit) {
+		this.gg_credit = gg_credit;
 	}
-	public int getBs() {
-		return bs;
+	public int getHg_count() {
+		return hg_count;
 	}
-	public void setBs(int bs) {
-		this.bs = bs;
+	public void setHg_count(int hg_count) {
+		this.hg_count = hg_count;
 	}
-	public int getBsGPA() {
-		return bsGPA;
+	public int getJg_credit() {
+		return jg_credit;
 	}
-	public void setBsGPA(int bsGPA) {
-		this.bsGPA = bsGPA;
+	public void setJg_credit(int jg_credit) {
+		this.jg_credit = jg_credit;
 	}
-	public int getTotalCredits() {
-		return totalCredits;
+	public int getJg_GPA() {
+		return jg_GPA;
 	}
-	public void setTotalCredits(int totalCredits) {
-		this.totalCredits = totalCredits;
+	public void setJg_GPA(int jg_GPA) {
+		this.jg_GPA = jg_GPA;
+	}
+	public int getBs_credit() {
+		return bs_credit;
+	}
+	public void setBs_credit(int bs_credit) {
+		this.bs_credit = bs_credit;
+	}
+	public int getBs_GPA() {
+		return bs_GPA;
+	}
+	public void setBs_GPA(int bs_GPA) {
+		this.bs_GPA = bs_GPA;
+	}
+	public int getTotal_credit() {
+		return total_credit;
+	}
+	public void setTotal_credit(int total_credit) {
+		this.total_credit = total_credit;
 	}
 }

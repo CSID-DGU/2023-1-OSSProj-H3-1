@@ -1,33 +1,37 @@
 package com.ossph3.home.check;
 
 import javax.servlet.http.HttpServletRequest;
-
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
-
 import com.ossph3.home.CheckMapper;
-import com.tireshoppingmall.home.board.BoardMapper;
 
 @Service
 public class GradRequDAO {
 	@Autowired
 	private SqlSession ss;
 	
-	public GradRequDTO read(String text, HttpServletRequest req, Model model) {
-		GradRequDTO grDTO = new GradRequDTO();
+	public void readGradRequ(GradRequDTO grDTO, HttpServletRequest req) {
+		GradRequDTO gradrequ = (GradRequDTO) ss.getMapper(CheckMapper.class).readGradRequ(grDTO);
+
+		req.setAttribute("gradrequ", gradrequ);
+		
+		// GradRequDTO grDTO = new GradRequDTO();
+		
+		/*
+		grDTO aa = "aa";
 		
 		String major = "ㅁㅁ";
+		String major_double = "ㅁㅁ";
 		
-		int gg = ss.getMapper(CheckMapper.class).getGg(grDTO);
-		int hg = ss.getMapper(CheckMapper.class).getHg(grDTO);
-		int jg = ss.getMapper(CheckMapper.class).getJg(grDTO);
-		int jgGPA = ss.getMapper(CheckMapper.class).getJgGPA(grDTO);
-		int bs = ss.getMapper(CheckMapper.class).getBs(grDTO);
-		int bsGPA = ss.getMapper(CheckMapper.class).getBsGPA(grDTO);
-		int totalCredits = ss.getMapper(CheckMapper.class).getTotalCredits(grDTO);
-		
-		return grDTO;
+		int gg_credit = ss.getMapper(CheckMapper.class).getGC(grDTO);
+		int hg_count = ss.getMapper(CheckMapper.class).getHC(grDTO);
+		int jg_credit = ss.getMapper(CheckMapper.class).getJC(grDTO);
+		int jg_GPA = ss.getMapper(CheckMapper.class).getJG(grDTO);
+		int bs_credit = ss.getMapper(CheckMapper.class).getBC(grDTO);
+		int bs_GPA = ss.getMapper(CheckMapper.class).getBG(grDTO);
+		int total_credit = ss.getMapper(CheckMapper.class).getTC(grDTO);
+		 */
 	}
 }

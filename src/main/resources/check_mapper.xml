@@ -1,43 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ossph3.home.check.CheckMapper">
-	<select id="getGg" resultType="java.lang.Integer">
+	<select id="readGradRequ" resultType="com.ossph3.home.check.GradRequDTO">
+		select *
+		from gradrequ
+		where major = #{major}
+	</select>
+	
+	<select id="getGC" resultType="java.lang.Integer">
 		select
 		from
 		where
 	</select>
 	
-	<select id="getHg" resultType="java.lang.Integer">
+	<select id="getHC" resultType="java.lang.Integer">
 		select
 		from
 		where
 	</select>
 	
-	<select id="getJg" resultType="java.lang.Integer">
+	<select id="getJC" resultType="java.lang.Integer">
 		select
 		from
 		where
 	</select>
 	
-	<select id="getJgGPA" resultType="java.lang.Integer">
+	<select id="getJG" resultType="java.lang.Integer">
 		select
 		from
 		where
 	</select>
 	
-	<select id="getBs" resultType="java.lang.Integer">
+	<select id="getBC" resultType="java.lang.Integer">
 		select
 		from
 		where
 	</select>
 	
-	<select id="getBsGPA" resultType="java.lang.Integer">
+	<select id="getBG" resultType="java.lang.Integer">
 		select
 		from
 		where
 	</select>
 	
-	<select id="getTotalCredits" resultType="java.lang.Integer">
+	<select id="getTC" resultType="java.lang.Integer">
 		select
 		from
 		where
