@@ -62,6 +62,9 @@ function curriculum(){
         document.getElementById("curriculum_p3").innerHTML = ""
         document.getElementById("curriculum_img3").innerHTML = ""
     }
-
+    else{
+        alert("학과, 학번을 올바르게 입력해주세요")
+    }
+    
     document.getElementById("curriculum").style.display = "flex";
 }
