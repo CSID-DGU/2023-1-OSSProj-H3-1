@@ -107,26 +107,31 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 ## 폴더 구조 및 주요 코드
 
 전형적인 Java Spring Legacy의 웹프레임워크 구조
+<br>
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/96261a84-3b5d-4ac9-a191-ebfca74ee6ed)
 
 <br>
 
 MultipartResolver를 이용하여 파일 업로드
+<br>
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/577d9ea6-22a1-4a9c-b01b-fe1df05bc337)
 
 <br>
 
 PDFBox를 이용하여 text를 추출
+<br>
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/80cacb69-5727-40e3-957c-9968cd25b180)
 
 <br>
 
 추출한 text에서 데이터를 선별
+<br>
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/f81e408a-3e3c-4654-92f1-a52c873e6a39)
 
 <br>
 
 선별한 데이터의 활용
+<br>
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/ab294b54-3118-493f-96fe-6f52cb410452)
 
 ## 레퍼런스 
