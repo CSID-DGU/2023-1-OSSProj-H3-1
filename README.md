@@ -23,6 +23,7 @@ __오픈소스를 활용하여, 졸업사정 관리를 효율적으로 할 수 �
 <summary>
  
 # 1. 전자정부 프레임워크 설치 
+ 
  </summary>
 <div markdown="1">
 <br>
@@ -35,7 +36,14 @@ https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchV
 
 </div>
 </details>
+<br>
+
+<details>
+<summary>
 # 2. 깃허브 이클립스 연동
+ </summary>
+<div markdown="1">
+<br>
 1. 이클립스를 실행하고 오른쪽 위에 퍼스펙티브 버튼을 클릭 <br>
 ![1](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/fdd82efb-dae0-4f8e-aea5-b4fe91c73eed)
 <br>
@@ -60,6 +68,11 @@ URL 칸에 복사 <br>그 밑의 빨간 박스에는 깃허브 아이디와 패�
 ![5](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/dbd9c80b-a6c0-4008-914f-5edd332572ee)
 
 <br>
+ 
+</div>
+</details>
+<br>
+
 
 # 3. 프로그램 실행
 <br>
