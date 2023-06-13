@@ -1,5 +1,4 @@
 #afterCheck_container{
-	text-align: center;
     width: 600px;
     padding: 10px 60px;
     background-color: rgb(242, 147, 0, 0.2);
@@ -8,8 +7,9 @@
     margin-bottom: 20px;
 }
  
-#afterCheck_container > p{
+#afterCheck_container > p:not(:first-child){
     font-size: 25px;
+    margin-left: 40px;
 }
 
 #afterCheck_container > p:first-child{
