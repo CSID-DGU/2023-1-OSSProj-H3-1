@@ -42,9 +42,12 @@ https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchV
 ### 2. 깃허브 이클립스 연동 
  </summary>
 <div markdown="1">
+ 
 1. 이클립스를 실행하고 오른쪽 위에 퍼스펙티브 버튼을 클릭 <br>
 ![1](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/fdd82efb-dae0-4f8e-aea5-b4fe91c73eed)
+
 2. Git을 선택하고 [OK] 버튼을 눌러 활성화 <br><br>
+ 
 3. Git 퍼스펙티브 화면에서 [Clone a Git repository] 클릭 <br>
 ![2](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/9ac2b6fe-0832-4635-b6d5-a99cba72e7ba)
 <br>
