@@ -211,8 +211,6 @@ PDFBox를 이용하여 text를 추출
 
 ## 레퍼런스 
 
-<br>
-
 ApachePDFBox 깃허브
 <br>
 https://github.com/apache/pdfbox
