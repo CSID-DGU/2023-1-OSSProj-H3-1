@@ -36,13 +36,33 @@ select * from jg;
 
 
 
--- º¹¼ö
+-- º¹¼ö1
 create table bs1(
     bs1_code varchar2(7 char) primary key,
     bs1_title varchar2(40 char) not null,
     bs1_credit number(1) not null,
     bs1_required char(1) not null
 );
-insert into bs values('code', 'title', 0, 0);
-insert into bs values('code', 'title', 0, 1);
-select * from bs;
+insert into bs1 values('code', 'title', 0, 0);
+insert into bs1 values('code', 'title', 0, 1);
+select * from bs1;
+
+
+
+-- Á¹¾÷¿ä°Ç
+create table gradrequ(
+    major varchar2(10char) primary key,
+    major_double varchar2(10char) not null,
+    credits_gg number(2) not null,
+    credits_hg number(1) not null,
+    credits_jg number(2) not null,
+    credits_bs number(2) not null,
+    credits_total number(3) not null
+);
+-- ÀÏº»21&À¶¼Ò22
+insert into gradrequ values('jpn21', 'ssc22', 29, 2, 36, 36, 130);
+-- ¿µ¾î21&À¶¼Ò22
+insert into gradrequ values('eng21', 'ssc22', 29, 2, 36, 36, 130);
+-- ÀÇ»ý21&À¶¼Ò22
+insert into gradrequ values('mbt21', 'ssc22', 29, 4, 36, 36, 130);
+select * from gradrequ;
