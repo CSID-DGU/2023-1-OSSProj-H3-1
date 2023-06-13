@@ -33,8 +33,8 @@ https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchV
 3. Git 퍼스펙티브 화면에서 [Clone a Git repository] 클릭 <br>
 ![2](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/9ac2b6fe-0832-4635-b6d5-a99cba72e7ba)
 <br>
-4. Clone Git Repository 창의 첫 번째 빨간 박스에 Git 원격 저장소 주소(https://github.com/CSID-DGU/2023-1-OSSProj-H3-1.git)를 URL 칸에 복사 <br>
-그 밑의 빨간 박스에는 깃허브 아이디와 패스워드를 입력하고 [Next] 버튼을 클릭 <br>
+4. Clone Git Repository 창의 첫 번째 빨간 박스에 Git 원격 저장소 주소(https://github.com/CSID-DGU/2023-1-OSSProj-H3-1.git) 
+URL 칸에 복사 <br>그 밑의 빨간 박스에는 깃허브 아이디와 패스워드를 입력하고 [Next] 버튼을 클릭 <br>
 
 ![3](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/3c5ee266-0d3a-4005-a97c-50ad2caef058)
 
@@ -66,6 +66,10 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 
 
 # 5. 내부 코드
+
+# 구조도 
+<br>
+여기에 구조도 삽
 
 ## 실행 결과 
 <br> 
@@ -100,10 +104,10 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 - 협업: Git/Github
 <br>
 
-## 주 코드 및 폴더
+## 주요 코드 및 폴더
 
-- H3_1\src\main\java\com\ossph3\home\apachepdfbox\test 폴더 : aPDFBox 테스트용 코드. 
-- 
+- 폴더 위치: H3_1\src\main\java\com\ossph3\home\apachepdfbox\test 설명: aPDFBox 테스트용 코드들입니다. Run on javapplication 으로 실행 가능
+- 여기에 나머지 코드랑 폴더들 언급해주시면 될거같아요
 
 ## 레퍼런스 
 
