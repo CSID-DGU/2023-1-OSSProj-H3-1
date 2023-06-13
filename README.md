@@ -138,7 +138,9 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 
   <br>
  <br>
+ 
  ## 프로그램 상세 설명
+ 
  <br>
  
  <details>
@@ -148,9 +150,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
  
   </summary>
  <div markdown="1">
-
-
-<br>
+  
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/49521c20-67ab-49c5-86a2-df8b9472b6be)
   
 </div>
@@ -159,11 +159,11 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
  <details>
 <summary>
  
-<br>
+ 
 # 폴더 구조 및 주요 코드
 
-  </summary>
- <div markdown="1">
+ </summary>
+<div markdown="1">
 
 전형적인 Java Spring Legacy의 웹프레임워크 구조
 <br>
