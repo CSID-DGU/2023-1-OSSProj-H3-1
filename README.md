@@ -210,27 +210,30 @@ PDFBox를 이용하여 text를 추출
 
 
 ## 레퍼런스 
+
 <br>
+
 ApachePDFBox 깃허브
 <br>
 https://github.com/apache/pdfbox
+<br>
 
 졸업가능 깃허브
 <br>
 https://github.com/Graduate-Ok/Graduation-Okay-
-
 <br>
 
 졸업을부탁해 back 깃허브
 <br>
 https://github.com/Myongji-Graduate/MyongjiGraduate-BE
+<br>
 
 졸업을부탁해 front 깃허브
 <br>
 https://github.com/Myongji-Graduate/MyongjiGraduate-FE
-
 <br>
 
 채널톡 SDK 사용 가이드
+<br>
 https://developers.channel.io/docs
 
