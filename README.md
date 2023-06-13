@@ -19,17 +19,35 @@ __오픈소스를 활용하여, 졸업사정 관리를 효율적으로 할 수 �
 ## 사용 방법
 <br>
 
-# 1. 전자정부 프레임워크 설치 
+<details>
+<summary>
+ 
+### 1. 전자정부 프레임워크 설치  
+ </summary>
+<div markdown="1">
 <br>
 https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchValue=&menuNo=41&bbsId=18&nttId=1707
 <br>
+</summary>
+<div markdown="1">       
 
-# 2. 깃허브 이클립스 연동
+
+
+</div>
+</details>
+
+<details>
+<summary>
+ 
+### 2. 깃허브 이클립스 연동 
+ </summary>
+<div markdown="1">
+ 
 1. 이클립스를 실행하고 오른쪽 위에 퍼스펙티브 버튼을 클릭 <br>
 ![1](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/fdd82efb-dae0-4f8e-aea5-b4fe91c73eed)
-<br>
 
-2. Git을 선택하고 [OK] 버튼을 눌러 활성화 <br>
+2. Git을 선택하고 [OK] 버튼을 눌러 활성화 <br><br>
+ 
 3. Git 퍼스펙티브 화면에서 [Clone a Git repository] 클릭 <br>
 ![2](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/9ac2b6fe-0832-4635-b6d5-a99cba72e7ba)
 <br>
@@ -49,8 +67,17 @@ URL 칸에 복사 <br>그 밑의 빨간 박스에는 깃허브 아이디와 패�
 ![5](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/dbd9c80b-a6c0-4008-914f-5edd332572ee)
 
 <br>
+ 
+</div>
+</details>
 
-# 3. 프로그램 실행
+<details>
+<summary>
+
+### 3. 프로그램 실행
+  </summary>
+<div markdown="1">
+ 
 <br>
 1. 서버 설치 <br>
 
@@ -63,38 +90,114 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 
 <br>
 
+ </div>
+</details>
 
 
-# 5. 내부 코드
 
-# 구조도 
-<br>
-여기에 구조도 삽
+<details>
+<summary>
 
-## 실행 결과 
-<br> 
+ ### 4. 실행 결과 
+   </summary>
+<div markdown="1">
+
 1. 메인 화면 <br>
 
 ![7](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/80f2fd86-245f-4d28-b42c-6e5448961896)
 
 <br>
-2. 커리큘럼 가이드 <br>
+2. 커리큘럼 가이드 <br><br>
 
 ![8](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/47d5b492-6ce4-456c-8679-a44cd635a865)
 
 <br>
-3. 모의졸업사정 <br>
+3. 모의졸업사정 <br><br>
+ 
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/b2c3b055-213d-45cd-abbb-561b7f24b863)
 
-![9](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/5768d01a-6c8d-4aed-a570-d9fc00291547)
-
-![10](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/056c7211-eb3e-4425-9a3e-ef3c6119a629)
 
 <br>
-판독 결과
-
-![11](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/77350a5d-596c-4a41-a343-af8ad2befb3c)
-
+ 
+판독 결과<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/48f862f0-8f0e-4c97-b8d4-0ecc1fe11591)
+ 
 <br> 
+
+ 
+ </div>
+</details>
+
+  <br>
+ <br>
+ 
+ ### 여기에 영상 링크 넣어주세
+ 
+ ## 프로그램 상세 설명
+ 
+ <br>
+ 
+ <details>
+<summary>
+ 
+### 구조도 
+ 
+  </summary>
+ <div markdown="1">
+  
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/49521c20-67ab-49c5-86a2-df8b9472b6be)
+  
+</div>
+</details>
+
+ <details>
+<summary>
+ 
+ 
+### 폴더 구조 및 주요 코드
+
+ </summary>
+<div markdown="1">
+
+전형적인 Java Spring Legacy의 웹프레임워크 구조
+<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/96261a84-3b5d-4ac9-a191-ebfca74ee6ed)
+
+<br>
+
+MultipartResolver를 이용하여 파일 업로드
+<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/577d9ea6-22a1-4a9c-b01b-fe1df05bc337)
+
+<br>
+
+PDFBox를 이용하여 text를 추출
+<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/80cacb69-5727-40e3-957c-9968cd25b180)
+
+<br>
+
+추출한 text에서 데이터를 선별, 
+<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/f81e408a-3e3c-4654-92f1-a52c873e6a39)
+
+<br>
+
+선별한 데이터의 활용
+<br>
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/ab294b54-3118-493f-96fe-6f52cb410452)
+ 
+정규식이 들어있는 코드 
+<br>
+  
+ ![12](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/23202306-ce56-4fbe-8820-c00933a09ecb)
+
+  
+  <br>
+  
+
+  </div>
+</details>
 
 ## 개발 환경
 - Window OS
@@ -104,10 +207,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 - 협업: Git/Github
 <br>
 
-## 주요 코드 및 폴더
 
-- 폴더 위치: H3_1\src\main\java\com\ossph3\home\apachepdfbox\test 설명: aPDFBox 테스트용 코드들입니다. Run on javapplication 으로 실행 가능
-- 여기에 나머지 코드랑 폴더들 언급해주시면 될거같아요
 
 ## 레퍼런스 
 
