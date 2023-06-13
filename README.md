@@ -130,7 +130,9 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 
   <br>
  
- ### 여기에 영상 링크 넣어주세
+ ### 데모 영상 
+ <br>
+ https://www.youtube.com/watch?v=KSldXH4fVAQ
 
  <br>
  
