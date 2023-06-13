@@ -54,8 +54,13 @@ function curriculum(){
     }
 
     else if(input_학과 == "융합소프트웨어"){
+        document.getElementById("curriculum_p1").innerHTML = ""
         document.getElementById("curriculum_img1").innerHTML = 
         `<img src="resources/image/guide/융소.png" alt="융소">`
+        document.getElementById("curriculum_p2").innerHTML = ""
+        document.getElementById("curriculum_img2").innerHTML = ""
+        document.getElementById("curriculum_p3").innerHTML = ""
+        document.getElementById("curriculum_img3").innerHTML = ""
     }
 
     document.getElementById("curriculum").style.display = "flex";
