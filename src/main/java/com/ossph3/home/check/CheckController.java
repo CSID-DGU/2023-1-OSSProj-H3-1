@@ -134,13 +134,15 @@ public class CheckController {
 				// model.addAttribute("pdf_hg_count", pdf_hg_credit);
 				//
 				model.addAttribute("pdf_jg_credit", pdf_jg_credit);
-				if (Double.parseDouble(pdf_jg_GPA) > 2) {
+				if (Double.parseDouble(pdf_jg_GPA) > 1) {
+				// if (Double.parseDouble(pdf_jg_GPA) > 2) {
 					model.addAttribute("pdf_jg_GPA", "2.0이상");
 				} else {
 					model.addAttribute("pdf_jg_GPA", "2.0미만");
 				}
 				model.addAttribute("pdf_bs_credit", pdf_bs_credit);
-				if (Double.parseDouble(pdf_bs_GPA) > 2) {
+				if (Double.parseDouble(pdf_bs_GPA) > 1) {
+				// if (Double.parseDouble(pdf_bs_GPA) > 2) {
 					model.addAttribute("pdf_bs_GPA", "2.0이상");
 				} else {
 					model.addAttribute("pdf_bs_GPA", "2.0미만");
