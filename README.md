@@ -16,12 +16,12 @@
 ### [프로젝트 목표]
 __오픈소스를 활용하여, 졸업사정 관리를 효율적으로 할 수 있는 서비스 제공__<br>
 
-## 사용 방법
 <br>
 
+## 사용 방법
 <details>
 <summary>
- 
+
 ### 1. 전자정부 프레임워크 설치  
  </summary>
 <div markdown="1">
@@ -129,13 +129,12 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 </details>
 
   <br>
- <br>
  
  ### 여기에 영상 링크 넣어주세
+
+ <br>
  
  ## 프로그램 상세 설명
- 
- <br>
  
  <details>
 <summary>
@@ -153,7 +152,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
  <details>
 <summary>
  
- 
+ <br>
 ### 폴더 구조 및 주요 코드
 
  </summary>
