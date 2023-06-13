@@ -106,7 +106,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 <details>
 <summary>
 
- ## 4. 실행 결과 
+ # 4. 실행 결과 
    </summary>
 <div markdown="1">
 
@@ -141,9 +141,22 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 
  ## 프로그램 상세 설명
  <br>
+ 
+ <details>
+<summary>
+ 
 # 구조도 
+ 
+  </summary>
+ <div markdown="1">
+
+
 <br>
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/49521c20-67ab-49c5-86a2-df8b9472b6be)
+  
+</div>
+</details>
+
 
 # 폴더 구조 및 주요 코드
 
