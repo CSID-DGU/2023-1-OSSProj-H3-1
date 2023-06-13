@@ -22,7 +22,7 @@ __오픈소스를 활용하여, 졸업사정 관리를 효율적으로 할 수 �
 <details>
 <summary>
  
-# 1. 전자정부 프레임워크 설치 
+### 1. 전자정부 프레임워크 설치 
  
  </summary>
 <div markdown="1">
@@ -43,7 +43,7 @@ https://www.egovframe.go.kr/home/ntt/nttList.do?pagerOffset=0&searchKey=&searchV
 <details>
 <summary>
  
-# 2. 깃허브 이클립스 연동
+### 2. 깃허브 이클립스 연동
  
  </summary>
 <div markdown="1">
@@ -80,7 +80,7 @@ URL 칸에 복사 <br>그 밑의 빨간 박스에는 깃허브 아이디와 패�
 <details>
 <summary>
 
-# 3. 프로그램 실행
+### 3. 프로그램 실행
  
   </summary>
 <div markdown="1">
@@ -105,7 +105,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 <details>
 <summary>
 
- # 4. 실행 결과 
+ ### 4. 실행 결과 
    </summary>
 <div markdown="1">
 
@@ -146,7 +146,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
  <details>
 <summary>
  
-# 구조도 
+### 구조도 
  
   </summary>
  <div markdown="1">
@@ -160,7 +160,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 <summary>
  
  
-# 폴더 구조 및 주요 코드
+### 폴더 구조 및 주요 코드
 
  </summary>
 <div markdown="1">
