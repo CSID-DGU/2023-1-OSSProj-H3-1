@@ -67,6 +67,10 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 
 # 5. 내부 코드
 
+# 구조도 
+<br>
+여기에 구조도 삽
+
 ## 실행 결과 
 <br> 
 1. 메인 화면 <br>
@@ -100,10 +104,10 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 - 협업: Git/Github
 <br>
 
-## 주 코드 및 폴더
+## 주요 코드 및 폴더
 
-- H3_1\src\main\java\com\ossph3\home\apachepdfbox\test 폴더 : aPDFBox 테스트용 코드. 
-- 
+- 폴더 위치: H3_1\src\main\java\com\ossph3\home\apachepdfbox\test 설명: aPDFBox 테스트용 코드들입니다. Run on javapplication 으로 실행 가능
+- 여기에 나머지 코드랑 폴더들 언급해주시면 될거같아요
 
 ## 레퍼런스 
 
