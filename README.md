@@ -93,6 +93,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 판독 결과
 
 ![11](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/77350a5d-596c-4a41-a343-af8ad2befb3c)
+![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/48f862f0-8f0e-4c97-b8d4-0ecc1fe11591)
 
 <br> 
 
