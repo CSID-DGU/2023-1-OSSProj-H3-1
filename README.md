@@ -99,7 +99,6 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 
  </div>
 </details>
-<br>
 
 
 
@@ -137,8 +136,8 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
  </div>
 </details>
 
- 
-
+  <br>
+ <br>
  ## 프로그램 상세 설명
  <br>
  
@@ -157,8 +156,14 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 </div>
 </details>
 
-
+ <details>
+<summary>
+ 
+<br>
 # 폴더 구조 및 주요 코드
+
+  </summary>
+ <div markdown="1">
 
 전형적인 Java Spring Legacy의 웹프레임워크 구조
 <br>
@@ -178,7 +183,7 @@ PDFBox를 이용하여 text를 추출
 
 <br>
 
-추출한 text에서 데이터를 선별
+추출한 text에서 데이터를 선별, 
 <br>
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/f81e408a-3e3c-4654-92f1-a52c873e6a39)
 
@@ -187,6 +192,18 @@ PDFBox를 이용하여 text를 추출
 선별한 데이터의 활용
 <br>
 ![image](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/63597125/ab294b54-3118-493f-96fe-6f52cb410452)
+ 
+정규식이 들어있는 코드 
+<br>
+  
+ ![12](https://github.com/CSID-DGU/2023-1-OSSProj-H3-1/assets/37091694/23202306-ce56-4fbe-8820-c00933a09ecb)
+
+  
+  <br>
+  
+
+  </div>
+</details>
 
 ## 개발 환경
 - Window OS
@@ -196,10 +213,7 @@ PDFBox를 이용하여 text를 추출
 - 협업: Git/Github
 <br>
 
-## 주요 코드 및 폴더
 
-- 폴더 위치: H3_1\src\main\java\com\ossph3\home\apachepdfbox\test 설명: aPDFBox 테스트용 코드들입니다. Run on javapplication 으로 실행 가능
-- 여기에 나머지 코드랑 폴더들 언급해주시면 될거같아요
 
 ## 레퍼런스 
 
