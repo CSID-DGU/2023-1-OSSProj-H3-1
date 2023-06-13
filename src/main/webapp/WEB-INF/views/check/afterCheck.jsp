@@ -24,7 +24,7 @@
 
 			    <hr>
 			    
-			    <p>학기이수:<span>&#9;&#9;</span>${pdf_hg_count }과목<span>&#9;&#9;</span>/ ${hg_count }과목</p>
+			    <p>학문기초이수:<span style="white-space: pre;">&#9;</span>${pdf_hg_count }과목<span style="white-space: pre;">&#9;&#9;</span>/ ${hg_count }과목</p>
 			    
 			    <hr>
 			    
