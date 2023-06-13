@@ -77,8 +77,14 @@ URL 칸에 복사 <br>그 밑의 빨간 박스에는 깃허브 아이디와 패�
 </details>
 <br>
 
+<details>
+<summary>
 
 # 3. 프로그램 실행
+ 
+  </summary>
+<div markdown="1">
+ 
 <br>
 1. 서버 설치 <br>
 
@@ -91,6 +97,14 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
 
 <br>
 
+ </div>
+</details>
+<br>
+
+
+
+<details>
+<summary>
 
 
 # 5. 내부 코드
