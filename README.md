@@ -11,7 +11,9 @@
  
  🤖 [이은학](https://github.com/Ag-crane) eunhak0401@naver.com
 <br>
- # INTRODUCE
+<br>
+
+# INTRODUCE
 
 ### [프로젝트 목표]
 __오픈소스를 활용하여, 졸업사정 관리를 효율적으로 할 수 있는 서비스 제공__<br>
@@ -128,11 +130,7 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.9:clntinstall �
  </div>
 </details>
 
-  <br>
- 
- ### 데모 영상 
- <br>
- https://www.youtube.com/watch?v=KSldXH4fVAQ
+ ### 데모 영상 : https://www.youtube.com/watch?v=KSldXH4fVAQ
 
  <br>
  
