@@ -1,0 +1,27 @@
+#afterCheck_container{
+	text-align: center;
+    width: 600px;
+    padding: 10px 60px;
+    background-color: rgb(242, 147, 0, 0.2);
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+ 
+#afterCheck_container > p{
+    font-size: 25px;
+}
+
+#afterCheck_container > p:first-child{
+    font-size: 35px;
+    text-align: center;
+}
+
+#afterCheck_container > p > span{
+    white-space: pre;
+}
+
+#afterCheck_container > p:last-child > span{
+    color:red;
+    font-weight: 700;
+}
